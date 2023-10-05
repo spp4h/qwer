@@ -3,7 +3,7 @@ import {Text, View} from 'react-native';
 
 
 
-const Cat = ({name}) => {
+const Cat = ({name, hungryStatus, weight}) => {
 
     let hungry ;
     if (hungry < 0.5 )
@@ -12,7 +12,7 @@ const Cat = ({name}) => {
     {hungryStatus = "Full"};
 
     
-
+    
     
     return <Text style={{color: 'white' }}>Hello, I am {name}your !{weight} {hungryStatus}</Text>;
 
